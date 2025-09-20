@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
+find_package(Qt6 CONFIG REQUIRED COMPONENTS Widgets)
 find_package(mo2-cmake CONFIG REQUIRED)
 find_package(mo2-uibase CONFIG REQUIRED)
 
