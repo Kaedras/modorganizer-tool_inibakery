@@ -2,21 +2,26 @@
   "features": {
     "standalone": {
       "description": "Build Standalone.",
-      "dependencies": ["mo2-cmake", "mo2-uibase"]
+      "dependencies": [
+        "mo2-cmake",
+        "mo2-uibase"
+      ]
     }
   },
   "vcpkg-configuration": {
     "default-registry": {
       "kind": "git",
-      "repository": "https://github.com/microsoft/vcpkg",
-      "baseline": "294f76666c3000630d828703e675814c05a4fd43"
+      "baseline": "256acc64012b23a13041d8705805e1f23b43a024",
+      "repository": "https://github.com/microsoft/vcpkg"
     },
     "registries": [
       {
         "kind": "git",
+        "baseline": "ffe7f0fbeb9165b253a2b6c1bea8ae5eaf66fa7b",
         "repository": "https://github.com/Kaedras/vcpkg-registry",
-        "baseline": "386e3fb7463f30e6d26c4cba8b411775267d5d08",
-        "packages": ["mo2-*"]
+        "packages": [
+          "mo2-*"
+        ]
       }
     ]
   }
